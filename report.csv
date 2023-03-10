@@ -1,0 +1,11 @@
+transaction_id,buyer_id,cardholderInfo,transStatus,messageType,transStatusReason
+7cdfe62e-db4f-4a6d-9337-601bdc18c189,5a93ef74-398a-4309-95df-c8c1b16aa387,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+bd33969b-9e59-44f4-836c-ed9b5299afd5,5a93ef74-398a-4309-95df-c8c1b16aa387,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+86ad6c59-90c5-433c-8703-3ac0720c81ff,5a93ef74-398a-4309-95df-c8c1b16aa387,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+24c09105-78f7-4dad-83af-924d4cba96e5,5a93ef74-398a-4309-95df-c8c1b16aa387,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+605c9f49-7e79-4753-94af-91ae6c19d838,5a93ef74-398a-4309-95df-c8c1b16aa387,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+ea02bc84-8972-4d3f-ba3e-89924a1064f2,f480362a-593b-441a-80b7-8ed9b24ebfaf,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+5b9a090f-b745-4505-9526-78bc7be3e3cc,f480362a-593b-441a-80b7-8ed9b24ebfaf,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+09a9b6d3-15c8-443b-be1f-0e0d13b03cdf,f480362a-593b-441a-80b7-8ed9b24ebfaf,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+c05b32ac-517b-4efc-9ba1-58543dca8cef,f480362a-593b-441a-80b7-8ed9b24ebfaf,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11
+54c29bff-3011-4292-85bb-cbc0abfb7f8f,f480362a-593b-441a-80b7-8ed9b24ebfaf,The purchase cannot be completed at this time. For additional information please contact your card issuer during business hours.,R,ARes,11

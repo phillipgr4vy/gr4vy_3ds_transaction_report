@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gr4vy-3ds-transaction-report"
+version = "0.1.0"
+description = ""
+authors = ["phillipgr4vy <phillip@gr4vy.com>"]
+readme = "README.md"
+packages = [{include = "gr4vy_3ds_transaction_report"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gr4vy = { git="https://github.com/gr4vy/gr4vy-python.git", branch="new_new" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

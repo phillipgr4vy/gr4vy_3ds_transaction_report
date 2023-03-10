@@ -15,6 +15,9 @@ def run_report(gr4vy_id, environment, private_key, log_file, output_file,):
           jsonPayload = log.get('jsonPayload')
           transaction_id = jsonPayload.get('transaction_id')
           response = jsonPayload.get('response')
-          buyer = client.get_transaction(transaction_id).get('buyer')
-          buyer_id = buyer.get('id')
+          try:
+            buyer = client.get_transaction(transaction_id).get('buyer')
+            buyer_id = buyer.get('id')
+          except Gr4vyError as e: 
+            continue
           writer.writerow({"transaction_id": transaction_id, "buyer_id": buyer_id, "cardholderInfo": response.get('cardholderInfo'), "transStatus": response.get('transStatus'),"messageType": response.get('messageType'),"transStatusReason":response.get('transStatusReason')})

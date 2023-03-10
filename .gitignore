@@ -8,6 +8,7 @@ pytest-env/
 .env
 *.json
 *.pem
+*.csv
 
 # Jetbrains IDEs
 .idea
